@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-Description: JLine is a java library for reading and editing us
+ er input in console applications. It features tab-completion, command
+  history, password masking, customizable keybindings, and pass-throug
+ h handlers to use to chain to other console applications.
+Bundle-License: LICENSE.txt
+Bundle-SymbolicName: jline
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1505857470632
+Import-Package: javax.swing;resolution:=optional
+DynamicImport-Package: *
+Tool: Bnd-0.0.311
+Export-Package: jline;uses:="javax.swing";version="1.0"
+Bundle-Version: 1.0
+Bundle-Name: JLine
+Ignore-Package: jline
+Created-By: 1.8.0_101 (Oracle Corporation)
+
