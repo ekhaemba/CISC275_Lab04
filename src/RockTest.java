@@ -2,7 +2,7 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-public class RockTest extends Rock {
+public class RockTest{
 
 	@Test
 	public void testRock() {
